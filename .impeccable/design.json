@@ -1,0 +1,644 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T07:53:10Z",
+  "title": "Design System: SIRISOFT ERP",
+  "extensions": {
+    "colorMeta": {
+      "evergreen": {
+        "role": "primary",
+        "displayName": "Evergreen",
+        "canonical": "#4a8a6c",
+        "tonalRamp": [
+          "#0f3328",
+          "#164536",
+          "#2f6d57",
+          "#3b7e66",
+          "#4a8a6c",
+          "#9cc9b6",
+          "#e5f1eb",
+          "#f1f8f4"
+        ]
+      },
+      "harbour-teal": {
+        "role": "secondary",
+        "displayName": "Harbour Teal",
+        "canonical": "#2f7086",
+        "tonalRamp": [
+          "#0e2a33",
+          "#163e4b",
+          "#215566",
+          "#2f7086",
+          "#4f8ea3",
+          "#86b5c5",
+          "#c4dde6",
+          "#edf4fb"
+        ]
+      },
+      "midnight-navy": {
+        "role": "tertiary",
+        "displayName": "Midnight Navy",
+        "canonical": "#0c2340",
+        "tonalRamp": [
+          "#060f1c",
+          "#0c2340",
+          "#12283a",
+          "#2a4560",
+          "#4d6680",
+          "#7f93a8",
+          "#b9c5d1",
+          "#e6ebf0"
+        ]
+      },
+      "forest-action": {
+        "role": "primary",
+        "displayName": "Forest Action",
+        "canonical": "#2f6d57",
+        "tonalRamp": [
+          "#0f3328",
+          "#164536",
+          "#2f6d57",
+          "#3b7e66",
+          "#4a8a6c",
+          "#9cc9b6",
+          "#e5f1eb",
+          "#f1f8f4"
+        ]
+      },
+      "forest-hover": {
+        "role": "primary",
+        "displayName": "Forest Hover",
+        "canonical": "#3b7e66",
+        "tonalRamp": [
+          "#0f3328",
+          "#164536",
+          "#2f6d57",
+          "#3b7e66",
+          "#4a8a6c",
+          "#9cc9b6",
+          "#e5f1eb",
+          "#f1f8f4"
+        ]
+      },
+      "mint-wash": {
+        "role": "neutral",
+        "displayName": "Mint Wash",
+        "canonical": "#e5f1eb"
+      },
+      "mint-mist": {
+        "role": "neutral",
+        "displayName": "Mint Mist",
+        "canonical": "#f1f8f4"
+      },
+      "on-green": {
+        "role": "primary",
+        "displayName": "On Green",
+        "canonical": "#cfe5da"
+      },
+      "sidebar-canopy": {
+        "role": "neutral",
+        "displayName": "Sidebar Canopy",
+        "canonical": "#164536"
+      },
+      "sidebar-floor": {
+        "role": "neutral",
+        "displayName": "Sidebar Floor",
+        "canonical": "#0f3328"
+      },
+      "sidebar-sprout": {
+        "role": "neutral",
+        "displayName": "Sidebar Sprout",
+        "canonical": "#7cc4a0"
+      },
+      "sidebar-text": {
+        "role": "neutral",
+        "displayName": "Sidebar Text",
+        "canonical": "#b6cdc4"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#12283a"
+      },
+      "slate-muted": {
+        "role": "neutral",
+        "displayName": "Slate Muted",
+        "canonical": "#626a76"
+      },
+      "faint-meta": {
+        "role": "neutral",
+        "displayName": "Faint Meta",
+        "canonical": "#6b7280"
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e5e7eb"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff"
+      },
+      "office-grey": {
+        "role": "neutral",
+        "displayName": "Office Grey",
+        "canonical": "#f4f6f7"
+      },
+      "subtle-fill": {
+        "role": "neutral",
+        "displayName": "Subtle Fill",
+        "canonical": "#f9fafb"
+      },
+      "amber-pending": {
+        "role": "status",
+        "displayName": "Amber Pending",
+        "canonical": "#94600e",
+        "tonalRamp": [
+          "#94600e",
+          "#d69a36",
+          "#efdca6",
+          "#fff5df"
+        ]
+      },
+      "amber-wash": {
+        "role": "status",
+        "displayName": "Amber Wash",
+        "canonical": "#fff5df",
+        "tonalRamp": [
+          "#94600e",
+          "#d69a36",
+          "#efdca6",
+          "#fff5df"
+        ]
+      },
+      "brick-alert": {
+        "role": "status",
+        "displayName": "Brick Alert",
+        "canonical": "#ba3a3a",
+        "tonalRamp": [
+          "#ba3a3a",
+          "#d14b4b",
+          "#f3c4c4",
+          "#fff0f0"
+        ]
+      },
+      "brick-wash": {
+        "role": "status",
+        "displayName": "Brick Wash",
+        "canonical": "#fff0f0",
+        "tonalRamp": [
+          "#ba3a3a",
+          "#d14b4b",
+          "#f3c4c4",
+          "#fff0f0"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "#374151"
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "Divider",
+        "canonical": "#f0f1f3"
+      },
+      "track": {
+        "role": "neutral",
+        "displayName": "Track",
+        "canonical": "#eef0f2"
+      },
+      "hover-fill": {
+        "role": "neutral",
+        "displayName": "Hover Fill",
+        "canonical": "#f3f4f6"
+      },
+      "border-input": {
+        "role": "neutral",
+        "displayName": "Input Border",
+        "canonical": "#e2e4e8"
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Strong Border",
+        "canonical": "#d1d5db"
+      },
+      "neutral-wash": {
+        "role": "neutral",
+        "displayName": "Neutral Wash",
+        "canonical": "#f1f2f4"
+      },
+      "green-300": {
+        "role": "primary",
+        "displayName": "Green 300",
+        "canonical": "#9cc9b6",
+        "tonalRamp": [
+          "#0f3328",
+          "#164536",
+          "#2f6d57",
+          "#3b7e66",
+          "#4a8a6c",
+          "#9cc9b6",
+          "#e5f1eb",
+          "#f1f8f4"
+        ]
+      },
+      "green-200": {
+        "role": "primary",
+        "displayName": "Green 200",
+        "canonical": "#d6e9dd",
+        "tonalRamp": [
+          "#0f3328",
+          "#164536",
+          "#2f6d57",
+          "#3b7e66",
+          "#4a8a6c",
+          "#9cc9b6",
+          "#e5f1eb",
+          "#f1f8f4"
+        ]
+      },
+      "teal-wash": {
+        "role": "secondary",
+        "displayName": "Teal Wash",
+        "canonical": "#edf4fb",
+        "tonalRamp": [
+          "#2f7086",
+          "#edf4fb"
+        ]
+      },
+      "amber-border": {
+        "role": "status",
+        "displayName": "Amber Border",
+        "canonical": "#efdca6",
+        "tonalRamp": [
+          "#94600e",
+          "#d69a36",
+          "#efdca6",
+          "#fff5df"
+        ]
+      },
+      "amber-mark": {
+        "role": "status",
+        "displayName": "Amber Mark",
+        "canonical": "#d69a36",
+        "tonalRamp": [
+          "#94600e",
+          "#d69a36",
+          "#efdca6",
+          "#fff5df"
+        ]
+      },
+      "brick-border": {
+        "role": "status",
+        "displayName": "Brick Border",
+        "canonical": "#f3c4c4",
+        "tonalRamp": [
+          "#ba3a3a",
+          "#d14b4b",
+          "#f3c4c4",
+          "#fff0f0"
+        ]
+      },
+      "brick-mark": {
+        "role": "status",
+        "displayName": "Brick Mark",
+        "canonical": "#d14b4b",
+        "tonalRamp": [
+          "#ba3a3a",
+          "#d14b4b",
+          "#f3c4c4",
+          "#fff0f0"
+        ]
+      },
+      "violet": {
+        "role": "data",
+        "displayName": "Violet",
+        "canonical": "#6b5da4",
+        "tonalRamp": [
+          "#6b5da4",
+          "#867ab4",
+          "#f0edfa"
+        ]
+      },
+      "violet-wash": {
+        "role": "data",
+        "displayName": "Violet Wash",
+        "canonical": "#f0edfa",
+        "tonalRamp": [
+          "#6b5da4",
+          "#867ab4",
+          "#f0edfa"
+        ]
+      },
+      "violet-mark": {
+        "role": "data",
+        "displayName": "Violet Mark",
+        "canonical": "#867ab4",
+        "tonalRamp": [
+          "#6b5da4",
+          "#867ab4",
+          "#f0edfa"
+        ]
+      },
+      "data-sand": {
+        "role": "data",
+        "displayName": "Data Sand",
+        "canonical": "#c8a05b",
+        "tonalRamp": [
+          "#7a5a1f",
+          "#c8a05b",
+          "#f6efe2"
+        ]
+      },
+      "sand": {
+        "role": "data",
+        "displayName": "Sand",
+        "canonical": "#7a5a1f",
+        "tonalRamp": [
+          "#7a5a1f",
+          "#c8a05b",
+          "#f6efe2"
+        ]
+      },
+      "sand-wash": {
+        "role": "data",
+        "displayName": "Sand Wash",
+        "canonical": "#f6efe2",
+        "tonalRamp": [
+          "#7a5a1f",
+          "#c8a05b",
+          "#f6efe2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page title in PageHeader, Midnight Navy."
+      },
+      "metric": {
+        "displayName": "Metric",
+        "purpose": "Numbers on summary, report and balance cards."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Modal and dialog titles."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Panel headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions, nav, buttons and inputs."
+      },
+      "table": {
+        "displayName": "Table",
+        "purpose": "Table cells and dense list rows."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Secondary body copy and compact descriptions."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Timestamps, captions and small badges; the 11px floor."
+      },
+      "metric-sm": {
+        "displayName": "Metric Small",
+        "purpose": "Values on denser report and balance cards."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Smaller dialog and drawer titles."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "SIRISOFT name beside the logo mark in the sidebar."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase eyebrows and table headers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-edge",
+        "value": "0 1px 2px rgba(22,47,35,.025)",
+        "purpose": "Panels and summary cards at rest."
+      },
+      {
+        "name": "button-edge",
+        "value": "0 1px 2px rgba(13,59,44,.14)",
+        "purpose": "Primary button."
+      },
+      {
+        "name": "hover-lift",
+        "value": "0 4px 12px rgba(15,40,30,.08)",
+        "purpose": "Clickable calendar days on hover."
+      },
+      {
+        "name": "toast",
+        "value": "0 8px 30px rgba(9,45,30,.25)",
+        "purpose": "Bottom-right toast."
+      },
+      {
+        "name": "popover",
+        "value": "0 12px 32px rgba(9,45,30,.16)",
+        "purpose": "Open dropdown list, date and time picker popovers."
+      },
+      {
+        "name": "overlay",
+        "value": "0 24px 70px rgba(8,32,21,.24)",
+        "purpose": "Modals and confirm dialogs, over a rgba(10,29,20,.45) backdrop with a 2px blur."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "0.2s ease",
+        "purpose": "Hover and state transitions on buttons and nav."
+      },
+      {
+        "name": "input",
+        "value": "0.18s",
+        "purpose": "Input border and focus ring."
+      },
+      {
+        "name": "fade",
+        "value": "fade 0.15s ease",
+        "purpose": "Modal backdrop entrance."
+      },
+      {
+        "name": "rise",
+        "value": "rise 0.2s ease (translateY 10px, opacity .7 → 1)",
+        "purpose": "Modal and toast entrance."
+      },
+      {
+        "name": "drawer",
+        "value": "transform 0.25s ease",
+        "purpose": "Mobile sidebar slide-in."
+      },
+      {
+        "name": "pop",
+        "value": "pop-in 0.16s cubic-bezier(.16,1,.3,1) (translateY -4px, opacity 0 → 1)",
+        "purpose": "Date and time picker popovers opening."
+      },
+      {
+        "name": "picker-icon",
+        "value": "rotate 0.18s ease-out",
+        "purpose": "Select chevron turning when the list opens."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "600px"
+      },
+      {
+        "name": "tablet",
+        "value": "820px"
+      },
+      {
+        "name": "laptop",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one forest-green action per view.",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M12 5v14M5 12h14\"/></svg>Add Entry</button>",
+      "css": ".ds-btn-primary { border: 0; min-height: 40px; padding: 0 16px; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font: 650 14px Inter, system-ui, sans-serif; background: #2f6d57; color: #fff; box-shadow: 0 1px 2px rgba(13,59,44,.14); transition: .2s; cursor: pointer; } .ds-btn-primary:hover { background: #3b7e66; transform: translateY(-1px); } .ds-btn-primary:focus-visible { outline: 0; box-shadow: 0 0 0 3px rgba(78,155,113,.3); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White button with a hairline for every non-primary action.",
+      "html": "<button class=\"ds-btn-secondary\">Export</button>",
+      "css": ".ds-btn-secondary { min-height: 40px; padding: 0 16px; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font: 650 14px Inter, system-ui, sans-serif; background: #fff; color: #374151; border: 1px solid #e2e4e8; transition: .2s; cursor: pointer; } .ds-btn-secondary:hover { background: #f3f4f6; border-color: #d1d5db; } .ds-btn-secondary:focus-visible { outline: 0; box-shadow: 0 0 0 3px rgba(78,155,113,.25); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled field with an evergreen focus ring.",
+      "html": "<label class=\"ds-field\"><span>Project <b>*</b></span><input class=\"ds-input\" placeholder=\"Select a project\" /></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 7px; font-family: Inter, system-ui, sans-serif; } .ds-field > span { color: #374151; font-size: 13px; font-weight: 650; } .ds-field b { color: #c45c4c; } .ds-input { height: 41px; padding: 0 11px; border: 1px solid #e2e4e8; background: #fff; color: #1f2937; border-radius: 7px; outline: 0; font-size: 14px; transition: .18s; } .ds-input::placeholder { color: #9ca3af; } .ds-input:focus { border-color: #4a8a6c; box-shadow: 0 0 0 3px rgba(78,155,113,.11); }"
+    },
+    {
+      "name": "Date Picker",
+      "kind": "custom",
+      "refersTo": "input",
+      "description": "Shared date field: input-shaped trigger plus a Monday-first calendar popover.",
+      "html": "<div class=\"ds-dp\"><button class=\"ds-dp-trigger\" aria-expanded=\"true\">Fri, May 16, 2025<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M16 3v4M8 3v4M3 10h18\"/></svg></button><div class=\"ds-dp-pop\"><div class=\"ds-dp-head\"><strong>May 2025</strong></div><div class=\"ds-dp-grid\"><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span><button>12</button><button class=\"today\">13</button><button>14</button><button>15</button><button class=\"selected\">16</button><button class=\"weekend\">17</button><button class=\"weekend\">18</button></div></div></div>",
+      "css": ".ds-dp { font-family: Inter, system-ui, sans-serif; width: 296px; } .ds-dp-trigger { width: 100%; height: 41px; display: flex; align-items: center; justify-content: space-between; padding: 0 11px; border: 1px solid var(--brand-green, #4a8a6c); border-radius: 7px; background: #fff; color: #12283a; font: inherit; font-size: 14px; box-shadow: 0 0 0 3px rgba(74,138,108,.22); } .ds-dp-trigger svg { color: #3b7e66; } .ds-dp-pop { margin-top: 6px; padding: 12px; border: 1px solid #e5e7eb; border-radius: 11px; background: #fff; box-shadow: 0 12px 32px rgba(9,45,30,.16); } .ds-dp-head strong { font-size: 14px; color: #0c2340; } .ds-dp-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; margin-top: 8px; } .ds-dp-grid span { height: 28px; display: grid; place-items: center; font-size: 11px; font-weight: 650; color: #6b7280; } .ds-dp-grid button { height: 36px; border: 0; border-radius: 8px; background: transparent; color: #12283a; font: inherit; font-size: 13px; cursor: pointer; transition: background-color .12s; } .ds-dp-grid button:hover { background: #f1f8f4; color: #2f6d57; } .ds-dp-grid button:focus-visible { outline: 2px solid #4a8a6c; outline-offset: -2px; } .ds-dp-grid .weekend { color: #626a76; } .ds-dp-grid .today { font-weight: 700; color: #2f6d57; box-shadow: inset 0 0 0 1px #d6e9dd; } .ds-dp-grid .selected, .ds-dp-grid .selected:hover { background: #2f6d57; color: #cfe5da; font-weight: 700; }"
+    },
+    {
+      "name": "Status Chips",
+      "kind": "chip",
+      "refersTo": "status-approved",
+      "description": "Semantic status pills with a dot; colours are fixed per status.",
+      "html": "<div class=\"ds-row\"><span class=\"ds-status ds-approved\"><i></i>Approved</span><span class=\"ds-status ds-pending\"><i></i>Pending</span><span class=\"ds-status ds-submitted\"><i></i>Submitted</span><span class=\"ds-status ds-rejected\"><i></i>Rejected</span><span class=\"ds-status ds-draft\"><i></i>Draft</span></div>",
+      "css": ".ds-row { display: flex; flex-wrap: wrap; gap: 8px; } .ds-status { display: inline-flex; align-items: center; gap: 6px; font: 650 12px Inter, system-ui, sans-serif; padding: 5px 8px; border-radius: 20px; } .ds-status i { width: 5px; height: 5px; border-radius: 50%; background: currentColor; } .ds-approved { color: #2f6d57; background: #e9f5ee; } .ds-pending { color: #94600e; background: #fff5df; } .ds-submitted { color: #2f7086; background: #edf4fb; } .ds-rejected { color: #ba3a3a; background: #fff0f0; } .ds-draft { color: #6c7771; background: #f1f2f4; }"
+    },
+    {
+      "name": "Summary Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Flat white card with eyebrow, metric, caption and icon tile.",
+      "html": "<div class=\"ds-summary\"><span class=\"ds-tile\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 7v5l3 2\"/></svg></span><p>THIS WEEK</p><strong>32.5h</strong><small>of 40h target</small><div class=\"ds-progress\"><span></span></div></div>",
+      "css": ".ds-summary { position: relative; width: 240px; background: #fff; border: 1px solid #e5e7eb; border-radius: 11px; padding: 19px 20px; box-shadow: 0 1px 2px rgba(22,47,35,.025); font-family: Inter, system-ui, sans-serif; color: #12283a; } .ds-summary p { margin: 3px 0 10px; font-size: 12px; font-weight: 700; letter-spacing: 1.1px; color: #7a808a; } .ds-summary strong { display: block; font-size: 26px; letter-spacing: -.4px; margin-bottom: 4px; } .ds-summary small { color: #6b7280; font-size: 13px; } .ds-tile { position: absolute; right: 18px; top: 18px; width: 38px; height: 38px; border-radius: 9px; display: grid; place-items: center; color: #2f6d57; background: #e9f5ee; } .ds-progress { height: 4px; background: #eef0f2; border-radius: 3px; overflow: hidden; margin-top: 13px; } .ds-progress span { display: block; width: 81%; height: 100%; background: #4a8a6c; }"
+    },
+    {
+      "name": "Sidebar Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Evergreen sidebar with a sprout rail on the active item.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-active\" href=\"#\">Dashboard</a><a href=\"#\">Time Sheet</a><a href=\"#\">My Team<b>4</b></a></nav>",
+      "css": ".ds-nav { width: 244px; padding: 16px; display: flex; flex-direction: column; gap: 6px; background: linear-gradient(180deg, #164536 0%, #0f3328 100%); font-family: Inter, system-ui, sans-serif; } .ds-nav a { height: 46px; border-radius: 9px; display: flex; align-items: center; padding: 0 14px; font-size: 15px; font-weight: 550; color: #b6cdc4; text-decoration: none; transition: .2s ease; } .ds-nav a:hover { background: rgba(255,255,255,.07); color: #fff; } .ds-nav a:focus-visible { outline: 2px solid #7cc4a0; outline-offset: -2px; } .ds-nav a.ds-active { background: rgba(255,255,255,.13); color: #fff; font-weight: 650; box-shadow: inset 3px 0 #7cc4a0; } .ds-nav b { margin-left: auto; background: #d4982e; color: #fff; border-radius: 12px; font-size: 14px; padding: 2px 7px; }"
+    },
+    {
+      "name": "Week Strip",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Signature time sheet week navigator; selected day in Forest Action.",
+      "html": "<div class=\"ds-week\"><button class=\"ds-arrow\">‹</button><button class=\"ds-day\"><span>Mon</span><strong>12</strong><small>8.0h</small></button><button class=\"ds-day ds-sel\"><span>Tue</span><strong>13</strong><small>7.5h</small></button><button class=\"ds-day\"><span>Wed</span><strong>14</strong><small class=\"ds-hol\">Holiday</small></button><button class=\"ds-arrow\">›</button></div>",
+      "css": ".ds-week { display: grid; grid-template-columns: 40px repeat(3, 1fr) 40px; background: #fff; border: 1px solid #e5e7eb; border-radius: 11px; padding: 8px; font-family: Inter, system-ui, sans-serif; width: 360px; } .ds-arrow, .ds-day { border: 0; background: #fff; color: #12283a; cursor: pointer; } .ds-arrow { font-size: 26px; color: #8a9099; } .ds-day { border-radius: 8px; padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 3px; } .ds-day span { color: #7a808a; font-size: 12px; text-transform: uppercase; } .ds-day strong { font-size: 15px; } .ds-day small { color: #3b7e66; font-size: 12px; } .ds-day small.ds-hol { color: #94600e; } .ds-day:not(.ds-sel):hover { background: #f3f4f6; } .ds-day:focus-visible { outline: 2px solid #4a8a6c; } .ds-sel { background: #2f6d57; color: #fff; } .ds-sel span, .ds-sel small { color: #cfe5da; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Evergreen Office",
+    "overview": "**Creative North Star: \"The Evergreen Office\"**\n\nA calm, green-lit office that people open every working day. The deep evergreen sidebar is the one large field of brand colour; everything the user works on sits on white paper cards over a cool office-grey floor. The brand lives in precise details rather than big gestures: the active nav rail in sprout green, the forest-green primary button, the mint wash behind a total or a hint.\n\nDensity is moderate and work-first. Screens are built from a page header, a row of summary cards, then panels with tables or lists. Colour carries meaning before it carries mood: green means done or approved, amber means waiting, brick red means missing or rejected, teal means submitted. Components are refined and restrained: thin hairlines, nearly invisible shadows, and green used only where someone is meant to act.",
+    "keyCharacteristics": [
+      "Dark evergreen sidebar, light grey page, white cards.",
+      "Flat surfaces separated by 1px hairlines; shadows only on floating layers.",
+      "One primary action per view, in forest green.",
+      "Status colour is semantic and consistent across every feature.",
+      "Inter throughout, with tight negative tracking only on headings and metrics."
+    ],
+    "rules": [
+      {
+        "name": "The Amber Means Waiting Rule",
+        "body": "Amber is only for something awaiting a decision (a submitted request, a week not yet approved). Leave tags and \"On leave\" use Sand (`--sand`, `--sand-bg`), holidays use Violet, Probation is neutral, and a Draft week is neutral with a dashed outline.",
+        "section": "colors"
+      },
+      {
+        "name": "The Data Is Not Status Rule",
+        "body": "Teal, amber and brick never encode a category. If a chart or tag needs another hue, use the data colours above.",
+        "section": "colors"
+      },
+      {
+        "name": "The Status Is Sacred Rule",
+        "body": "Green = approved/complete, amber = pending/waiting, brick = rejected/missing, teal = submitted, grey = draft. Never reuse these hues decoratively, and never show a status in a colour other than its own.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Green Button Rule",
+        "body": "A view has one forest-green primary button. Other actions are secondary (white with hairline) or text buttons.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tokens Only Rule",
+        "body": "Colours are changed in `:root` of `src/styles/globals.css`, never inline. Outside `:root` the stylesheet uses only `var(--…)`; the only literals left are the rgba scrims and shadows.",
+        "section": "colors"
+      },
+      {
+        "name": "The 11px Floor Rule",
+        "body": "No text is smaller than 11px. Use 11–13px for labels and meta, 14–15px for body and table text, 18px+ for headings and values.",
+        "section": "typography"
+      },
+      {
+        "name": "The Thai-Ready Rule",
+        "body": "Thai text is coming. Don't rely on uppercase or letter-spacing to carry meaning, and leave line-height room for Thai vowels and tone marks.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Floor Rule",
+        "body": "Surfaces at rest are flat. Separate them with hairlines and tonal fills, not shadows. Only floating layers get a real shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use the existing classes in `src/styles/globals.css` (`panel`, `panel-head`, `primary-btn`, `secondary-btn`, `field`, `status-*`, `summary-card`) before creating new ones, and add new rules next to related ones, including their responsive rules.",
+      "**Do** keep one forest-green primary action per view.",
+      "**Do** pair every status colour with its label and dot; colour is never the only signal.",
+      "**Do** separate surfaces with 1px Hairline borders and `#f0f1f3` row dividers.",
+      "**Do** design every new screen at 600px and 820px as well as desktop."
+    ],
+    "donts": [
+      "**Don't** change or replace the SIRISOFT green theme, or hard-code colours outside `:root`.",
+      "**Don't** use status colours (amber, brick, teal) for decoration.",
+      "**Don't** add heavy shadows to cards at rest; only modals, dialogs and toasts float.",
+      "**Don't** set text below 11px.",
+      "**Don't** build new modal backdrops; use the shared `Modal` and `ConfirmDialog`.",
+      "**Don't** put a bordered, tinted box inside a panel (a card in a card). Separate a summary row inside a panel with a 1px divider instead.",
+      "**Don't** add coloured stripes along a card edge; use the icon tile or a dot."
+    ]
+  }
+}

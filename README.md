@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SIRISOFT ERP
 
-## Getting Started
-
-First, run the development server:
+Next.js 16 (App Router) + TypeScript + Tailwind v4, organised with the
+[Bulletproof React](https://github.com/alan2207/bulletproof-react) feature-based structure.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev    # http://localhost:3000
+npm run lint   # also enforces the import boundaries below
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/                    # App layer: routes, layouts, providers
+│   ├── layout.tsx          # root layout (fonts, global CSS, <AppProvider>)
+│   ├── provider.tsx        # global client providers (role, notifications)
+│   └── (app)/              # route group sharing the dashboard shell
+│       ├── layout.tsx
+│       └── <route>/page.tsx  # fetches via feature api/ and renders a feature view
+├── components/             # shared UI
+│   ├── layouts/            # DashboardLayout (sidebar + topbar)
+│   └── ui/                 # Icon, Modal, ConfirmDialog, Field, StatusBadge, notifications…
+├── config/paths.ts         # routes, nav labels/icons and allowed roles
+├── features/
+│   └── <feature>/
+│       ├── api/            # data access (mocked today, swap for fetch later)
+│       ├── components/     # feature UI
+│       └── types/          # feature-only types (optional)
+├── lib/authorization.tsx   # role context + <Authorization> guard
+├── styles/globals.css      # design tokens and component styles
+├── testing/mocks/db.ts     # mock data used by feature api/ functions
+└── types/api.ts            # entity types shared across features
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Features: `dashboard`, `timesheet`, `overtime`, `leave`, `team`, `employees`,
+`reports`, `settings`, `history`.
 
-## Learn More
+## Rules (enforced by ESLint `import/no-restricted-paths`)
 
-To learn more about Next.js, take a look at the following resources:
+- Code flows one way: **shared → features → app**.
+- A feature never imports another feature. When a page needs data from several
+  features (e.g. the dashboard uses `timesheet`, `team` and `employees`), the
+  route in `src/app` fetches each and passes it down as props.
+- Shared modules (`components`, `lib`, `config`, `types`, …) never import from
+  `features` or `app`.
+- No barrel `index.ts` files — import from the file directly.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Adding a feature
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. `src/features/<name>/api/get-<thing>.ts` – async data function.
+2. `src/features/<name>/components/<name>-view.tsx` – UI.
+3. Add the route to `src/config/paths.ts` (label, icon, roles).
+4. `src/app/(app)/<name>/page.tsx` – fetch, wrap in `<Authorization>`, render the view.
+5. Add `<name>` to the `features` list in `eslint.config.mjs`.
